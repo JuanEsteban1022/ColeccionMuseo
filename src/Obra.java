@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Obra {
-    //List<Integer> arreglo = new ArrayList<>();
-
     public List<Integer> clases(List<Integer> clases) {
         List<Integer> sinDuplicados = clases.stream().distinct().collect(Collectors.toList());
         System.out.println(sinDuplicados);
